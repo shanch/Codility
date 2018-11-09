@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Lesson2\CyclicRotation.cs" />
     <Compile Include="Lesson2\OddOccurrencesInArray.cs" />
+    <Compile Include="Lesson3\FrogJmp.cs" />
     <Compile Include="Lesson3\PermMissingElem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
