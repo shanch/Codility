@@ -51,6 +51,7 @@
     <Compile Include="Lesson3\FrogJmpTest.cs" />
     <Compile Include="Lesson3\PermMissingElemTest.cs" />
     <Compile Include="Lesson2\OddOccurrencesInArrayTest.cs" />
+    <Compile Include="Lesson3\TapeEquilibriumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
