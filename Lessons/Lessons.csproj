@@ -45,11 +45,15 @@
   <ItemGroup>
     <Compile Include="Lesson2\CyclicRotation.cs" />
     <Compile Include="Lesson2\OddOccurrencesInArray.cs" />
+    <Compile Include="Lesson3\FrogJmp.cs" />
+    <Compile Include="Lesson3\PermMissingElem.cs" />
+    <Compile Include="Lesson3\TapeEquilibrium.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
