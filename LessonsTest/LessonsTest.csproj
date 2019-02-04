@@ -55,6 +55,7 @@
     <Compile Include="Lesson4\PermCheckTest.cs" />
     <Compile Include="Lesson4\MaxCountersTest.cs" />
     <Compile Include="Lesson4\FrogRiverOneTest.cs" />
+    <Compile Include="Lesson4\MissingIntegerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
