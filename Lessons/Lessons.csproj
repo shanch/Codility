@@ -52,6 +52,9 @@
     <Compile Include="Lesson4\MaxCounters.cs" />
     <Compile Include="Lesson4\MissingInteger.cs" />
     <Compile Include="Lesson4\PermCheck.cs" />
+    <Compile Include="Lesson6\Distinct.cs" />
+    <Compile Include="Lesson6\MaxProductOfThree.cs" />
+    <Compile Include="Lesson6\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

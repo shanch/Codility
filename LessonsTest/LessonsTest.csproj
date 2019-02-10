@@ -56,6 +56,9 @@
     <Compile Include="Lesson4\MaxCountersTest.cs" />
     <Compile Include="Lesson4\FrogRiverOneTest.cs" />
     <Compile Include="Lesson4\MissingIntegerTest.cs" />
+    <Compile Include="Lesson6\DistinctTest.cs" />
+    <Compile Include="Lesson6\MaxProductOfThreeTest.cs" />
+    <Compile Include="Lesson6\TriangleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +70,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
