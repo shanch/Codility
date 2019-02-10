@@ -52,6 +52,7 @@
     <Compile Include="Lesson4\MaxCounters.cs" />
     <Compile Include="Lesson4\MissingInteger.cs" />
     <Compile Include="Lesson4\PermCheck.cs" />
+    <Compile Include="Lesson8\EquiLeader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
