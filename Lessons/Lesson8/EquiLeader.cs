@@ -10,14 +10,23 @@ namespace Lessons.Lesson8
     {
         public int Solution(int[] A)
         {
-            int cnt = 0;
+            int leader = GetLeader(A);
 
+            if(leader == int.MinValue) return 0;
+
+            int totalCntOfLeader = A.Where(n => n == leader).Count();
+
+            int cntOfLeader = 0;
+
+            int cnt = 0;
             for(int i=0; i<A.Length; i++)
             {
-                int leader1 = GetLeader(A.Take(i + 1).ToArray());
-                int leader2 = GetLeader(A.Skip(i + 1).ToArray());
+                if (A[i] == leader) cntOfLeader++;
 
-                if (leader1 == leader2) cnt++;
+                if ((cntOfLeader >= (i + 1) / 2 + 1) && ((totalCntOfLeader - cntOfLeader) >= (A.Length - i - 1) / 2 + 1))
+                {
+                    cnt++;
+                }
             }
 
             return cnt;
@@ -27,14 +36,21 @@ namespace Lessons.Lesson8
         {
             aa = aa.OrderBy(a => a).ToArray();
 
-            int lenOfLeader = aa.Length / 2 + 1;
+            int possibleLeader = aa[aa.Length / 2];
 
-            for(int i=0; i<aa.Length - lenOfLeader + 1; i++)
+            int cnt = 0;
+
+            foreach(int a in aa)
             {
-                if (aa[i] == aa[i + lenOfLeader - 1]) return aa[i];
+                if (a == possibleLeader) cnt++;
             }
 
-            return -1;
+            if(cnt > aa.Length / 2)
+            {
+                return possibleLeader;
+            }
+
+            return int.MinValue;
         }
     }
 }
