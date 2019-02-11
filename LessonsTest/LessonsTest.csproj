@@ -56,6 +56,8 @@
     <Compile Include="Lesson4\MaxCountersTest.cs" />
     <Compile Include="Lesson4\FrogRiverOneTest.cs" />
     <Compile Include="Lesson4\MissingIntegerTest.cs" />
+    <Compile Include="Lesson8\EquiLeaderTest.cs" />
+    <Compile Include="Lesson8\DominatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
